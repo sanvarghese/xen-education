@@ -755,9 +755,9 @@ body {
     }
 }
 
-.site-header.layout-2.header-overlay .header-inner {
+/* .site-header.layout-2.header-overlay .header-inner {
     background-color: transparent;
-}
+} */
 
 .site-header.layout-2.fixed .header-inner {
     background-color: #fff;

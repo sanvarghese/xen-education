@@ -1,22 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 (function($) {
     'use strict';
 
@@ -1244,9 +1225,7 @@ window.addEventListener("scroll", function () {
 
 
 /**
- * moduloColumns layout mode for Isotope 2
- * This layout mode does currently not support stamping
- * @author Michiel de Wit <mail@michieldewit.nl>
+
  */
 try {
     (function(window) {
@@ -1350,3 +1329,20 @@ try {
 
     })(window);
 } catch(er) {console.log(er);}
+
+document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+  // Hide top bar on scroll
+  window.addEventListener('scroll', function() {
+    var topBar = document.querySelector('.top-bar');
+    var header = document.querySelector('.site-header');
+    
+    if (window.scrollY > 50) {
+      topBar.classList.add('top-bar-hidden');
+      header.classList.add('scrolled');
+    } else {
+      topBar.classList.remove('top-bar-hidden');
+      header.classList.remove('scrolled');
+    }
+  });
+
