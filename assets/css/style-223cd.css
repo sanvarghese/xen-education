@@ -9208,14 +9208,18 @@ th {
  *
 \*/
 .site-header.layout-2 .element-login-popup.layout-1 .login-links a {
-  color: white;
+  /* color: white;
   padding: 0;
-  font-weight: 500;
+  font-weight: 500; */
   margin-right: auto;
+  font-weight: 600;
+  border-radius: 50px;
+  color: #003a78;
 }
 
 .site-header.layout-2 .element-login-popup.layout-1 .login-links a:hover {
-  font-weight: 700;
+  font-weight: 600;
+  color: white;
 }
 
 .footer-links li {
@@ -10133,7 +10137,7 @@ th {
   text-align: left;
   margin-left: 0;
   margin-right: auto;
-  font-size: 38px;
+  font-size: 39px;
 }
 
 .element-heading.layout-2.align-left .subtitle,
@@ -10975,7 +10979,7 @@ th {
 }
 
 .element-list-courses.layout-1 .item-course .text {
-  padding: 0 20px 25px;
+  padding: 20px 25px 37px 20px;
 }
 
 .element-list-courses.layout-1 .item-course .text .teacher {
@@ -12770,7 +12774,7 @@ th {
 
 .element-icon-box.layout-2 .icon-box .content .title {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   color: #fff;
   word-break: break-word;
@@ -13454,8 +13458,8 @@ th {
 }
 
 .element-counter-box.layout-1 .item .title {
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 14px;
   line-height: 1.5;
   color: #363636;
   word-break: break-word;
@@ -14616,7 +14620,7 @@ th {
 
 .sec-about-12 .text-sec p {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.777777;
   color: #363636;
   word-break: break-word;
